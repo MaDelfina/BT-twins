@@ -1,0 +1,36 @@
+footer #social {
+    text-align: center;
+    margin-top: -20px;
+} 
+footer #social li {
+    display: inline-block;
+    vertical-align: middle;
+}
+footer #botones {
+    margin: 5em auto 2em;
+    text-transform: uppercase;
+    color: #333;
+}
+footer #botones div {
+    text-align: center;
+}
+footer #botones span {
+    display: block;
+    font-size: 12px;
+    margin: 15px auto 20px;
+    letter-spacing: 1.3px;
+}
+footer #botones img {
+    max-width: 60px;
+}
+
+@media (max-width: 768px) {
+footer #botones { margin: 4em auto 0;}
+footer #botones div { margin-bottom: 30px;}
+}
+
+/* estilo para las paginas de INFO */
+.paginas-contenido {
+  font-size: 1.1rem;
+  color: #333;
+}
