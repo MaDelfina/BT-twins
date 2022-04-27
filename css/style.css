@@ -1,28 +1,21 @@
+/*header*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: black;
   font-size: 1.2rem;
   line-height: 1.6em;
-  margin: 0;
-}
-body header {
-  z-index: 100;
-  position: fixed;
-  background-color: #C4DFE6;
-  color: #66A5AD;
-  padding: 2rem 0;
-  left: 0;
-  top: 0;
-  width: 100%;
 }
 body header a {
-  color: #66A5AD;
-  text-decoration: none;
+  color: #003B46;
 }
 
 .icono {
   z-index: 200;
-  background-color: white;
+  background-color: rgb(175, 175, 175);
 }
 
 input {
@@ -30,19 +23,12 @@ input {
 }
 
 .dropdown-menu li {
-  background-color: rgb(197, 196, 196);
-  background-color: #efefef;
+  background-color: #c7c5c5;
   width: 100%;
   text-align: center;
 }
 .dropdown-menu li a:hover {
-  color: #efefef;
-}
-
-.ejemplo {
-  z-index: 100;
-  background-color: rgb(197, 196, 196);
-  width: 100%;
+  color: #ffffff;
 }
 
 h1 {
@@ -132,9 +118,19 @@ p {
   width: 100%;
 }
 
+.card-title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/*enterizas*/
 * {
   margin: 0;
   padding: 0;
+}
+
+.card {
+  width: 80%;
+  margin: auto;
 }
 
 .carousel-item {
@@ -150,9 +146,32 @@ p {
   align-items: center;
 }
 
+/*bombachas*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  width: 70%;
+  margin: auto;
+}
+
+/*talles*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .size-photo {
   display: flex;
   justify-content: center;
+}
+
+/*contacto*/
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -259,24 +278,39 @@ p {
     background: rgb(209, 205, 205);
   }
 }
-.card {
-  width: 80%;
-  margin: auto;
+/*cambios*/
+* {
+  margin: 0;
+  padding: 0;
 }
 
 .paginas-contenido {
-  margin-top: 60px;
+  margin-top: 85px;
   padding: 0 130px;
 }
 
+/*header*/
+body header {
+  z-index: 100;
+  position: fixed;
+  background-color: #66A5AD;
+  color: #003B46;
+  padding: 2.5rem 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.card-title {
+  color: #003B46;
+  display: flex;
+  justify-content: center;
+}
+
+/*footer*/
 footer #social {
   text-align: center;
   margin-top: -20px;
-}
-
-footer #social li {
-  display: inline-block;
-  vertical-align: middle;
 }
 
 footer #botones {
@@ -285,8 +319,41 @@ footer #botones {
   color: #333;
 }
 
-footer #botones div {
+footer #botones span {
+  display: block;
+  font-size: 12px;
+  margin: 15px auto 20px;
+  letter-spacing: 1.3px;
+}
+
+/*header*/
+body header {
+  z-index: 100;
+  position: fixed;
+  background-color: #66A5AD;
+  color: #003B46;
+  padding: 2.5rem 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.card-title {
+  color: #003B46;
+  display: flex;
+  justify-content: center;
+}
+
+/*footer*/
+footer #social {
   text-align: center;
+  margin-top: -20px;
+}
+
+footer #botones {
+  margin: 5em auto 2em;
+  text-transform: uppercase;
+  color: #333;
 }
 
 footer #botones span {
@@ -294,6 +361,21 @@ footer #botones span {
   font-size: 12px;
   margin: 15px auto 20px;
   letter-spacing: 1.3px;
+}
+
+/*footer*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+footer #social li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+footer #botones div {
+  text-align: center;
 }
 
 footer #botones img {
@@ -309,10 +391,14 @@ footer #botones img {
     margin-bottom: 30px;
   }
 }
-/* estilo para las paginas de INFO */
+/*estilo para las paginas de INFO*/
 .paginas-contenido {
   font-size: 1.1rem;
   color: #333;
+}
+
+.espacio {
+  margin-top: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

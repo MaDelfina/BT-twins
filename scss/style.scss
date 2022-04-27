@@ -1,7 +1,10 @@
-@import "header";
-@import "enterizas";
-@import "talles";
-@import "contacto";
-@import "bombachas";
-@import "cambios";
-@import "footer";
+@import "./componentes/header";
+@import "./componentes/enterizas";
+@import "./componentes/bombachas";
+@import "./componentes/talles";
+@import "./componentes/contacto";
+@import "./componentes/cambios";
+@import "./base/variables";
+@import "./base/mixin";
+@import "./base/extends";
+@import "./componentes/footer";
