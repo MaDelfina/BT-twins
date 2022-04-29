@@ -19,6 +19,11 @@ body {
 	}
 }
 
+.btn-outline-success {
+    color: black;
+    border-color: black;
+}
+
 .icono {
 	z-index: 200;
 	background-color: rgb(175, 175, 175);
@@ -67,6 +72,10 @@ p {
 .logo {
 	letter-spacing: 5px;
 	font-size: 1.2em;
+}
+
+.menu-icon {
+	display: none;
 }
 
 .navigation {

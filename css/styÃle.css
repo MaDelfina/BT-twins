@@ -13,11 +13,6 @@ body header a {
   color: #003B46;
 }
 
-.btn-outline-success {
-  color: black;
-  border-color: black;
-}
-
 .icono {
   z-index: 200;
   background-color: rgb(175, 175, 175);
@@ -163,8 +158,8 @@ p {
 }
 
 .carrito {
-  display: flex;
-  translate: right;
+  display: block;
+  align-items: right;
 }
 
 /*talles*/
@@ -411,4 +406,4 @@ footer #botones img {
   margin-top: 50px;
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=sty%C3%83le.css.map */
