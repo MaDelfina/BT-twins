@@ -9,13 +9,40 @@ body {
   font-size: 1.2rem;
   line-height: 1.6em;
 }
+body header {
+  background-position: center;
+}
 body header a {
   color: #003B46;
 }
-
-.btn-outline-success {
-  color: black;
-  border-color: black;
+@media screen and (max-width: 375px) {
+  body .menu-icon {
+    display: block;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+  }
+  body .navigation {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  body .navigation ul {
+    display: none;
+  }
+  body .navigation ul li {
+    display: block;
+  }
+  body .navigation ul li a {
+    display: block;
+    padding: 0.5rem 0;
+    transition: all 0.4 linear;
+    border-radius: 5px;
+  }
+  body .navigation ul li a:hover {
+    background: rgb(209, 205, 205);
+  }
+  body .navigation ul.show {
+    display: block;
+  }
 }
 
 .icono {
@@ -34,11 +61,6 @@ input {
 }
 .dropdown-menu li a:hover {
   color: #ffffff;
-}
-
-h1 {
-  line-height: 1.3em;
-  font-size: 2em;
 }
 
 p {
@@ -89,36 +111,11 @@ p {
   padding-top: 2rem;
 }
 
-@media screen and (max-width: 767px) {
-  .menu-icon {
-    display: block;
-    cursor: pointer;
-    padding: 0.5rem 1rem;
-  }
-
-  .navigation {
-    width: 100%;
-    margin-top: 1rem;
-  }
-  .navigation ul {
-    display: none;
-  }
-  .navigation ul li {
-    display: block;
-  }
-  .navigation ul li a {
-    display: block;
-    padding: 0.5rem 0;
-    transition: all 0.4 linear;
-    border-radius: 5px;
-  }
-  .navigation ul li a:hover {
-    background: rgb(209, 205, 205);
-  }
-  .navigation ul.show {
-    display: block;
-  }
+.btn-outline-success {
+  background-color: black;
+  border-color: black;
 }
+
 .imagenes {
   width: 100%;
 }
@@ -163,8 +160,8 @@ p {
 }
 
 .carrito {
-  display: flex;
-  translate: right;
+  position: relative;
+  padding-left: 80%;
 }
 
 /*talles*/
