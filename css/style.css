@@ -170,11 +170,22 @@ p {
   padding: 0;
 }
 
+.paginas-contenido {
+  margin-top: 90px;
+  padding: 0 130px;
+}
+
 .size-photo {
   display: flex;
   justify-content: center;
 }
 
+@media screen and (max-width: 375px) {
+  .paginas-contenido {
+    margin-top: 90px;
+    padding: 10px 10px;
+  }
+}
 /*contacto*/
 * {
   margin: 0;
@@ -285,17 +296,11 @@ p {
     background: rgb(209, 205, 205);
   }
 }
-/*cambios*/
-* {
-  margin: 0;
-  padding: 0;
+@media screen and (max-width: 1000px) {
+  .sizes {
+    width: 100%;
+  }
 }
-
-.paginas-contenido {
-  margin-top: 90px;
-  padding: 0 130px;
-}
-
 /*header*/
 body header {
   z-index: 100;

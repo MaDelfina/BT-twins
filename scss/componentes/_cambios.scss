@@ -1,9 +1,5 @@
-/*cambios*/
-* {
-    margin: 0;
-    padding: 0;
-}
-.paginas-contenido {
-    margin-top: 90px;
-    padding: 0 130px ;
+@media screen and (max-width: 1000px) {
+    .sizes {
+        width: 100%;
+    }
 }
